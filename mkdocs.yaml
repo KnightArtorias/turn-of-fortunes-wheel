@@ -1,14 +1,25 @@
+strict: true
+
 site_name: Turn of Fortune's Wheel
+repo_url: https://github.com/KnightArtorias/turn-of-fortunes-wheel
+site_description: An Open Portal Beckons
+site_author: The Lady of Pain
+
+theme:
+  name: material
+
+use_directory_urls: true
 
 plugins:
+  - search
   - pub-obsidian:
-    obsidian_dir: .obsidian
-    templates_dir: _templates
-    backlinks:
-      enabled: true
-    callouts:
-      enabled: true
-      indentation: spaces
-    links:
-      wikilinks_enabled: true
-      img_lazy: true
+      obsidian_dir: .obsidian
+      templates_dir: _templates
+      backlinks:
+        enabled: true
+      callouts:
+        enabled: true
+        indentation: spaces
+      links:
+        wikilinks_enabled: true
+        img_lazy_loading: true
