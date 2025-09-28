@@ -1,0 +1,14 @@
+site_name: Turn of Fortune's Wheel
+
+plugins:
+  - pub-obsidian:
+    obsidian_dir: .obsidian
+    templates_dir: _templates
+    backlinks:
+      enabled: true
+    callouts:
+      enabled: true
+      indentation: spaces
+    links:
+      wikilinks_enabled: true
+      img_lazy: true
